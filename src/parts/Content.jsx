@@ -23,19 +23,19 @@ export const Content = () => {
     {
       title: "Pola Asuh Anak Yang Baik (Cara Mendidik Anak)",
       subtitle: "",
-      url: "",
+      url: "https://www.youtube.com/watch?v=aCn8ERT7hLs&pp=ygUacGFyZW50aW5nIGRhc2FyIHVudHVrIGFuYWs%3D",
       imgUrl: "",
     },
     {
       title: "Stimulasi Anak",
       subtitle: "Stimulasi penting untuk,mendukung perkembangan anak",
-      url: "",
+      url: "https://youtu.be/JZCT35OFEwA?si=hK2YyLtkINROltts",
       imgUrl: "",
     },
     {
       title: "Ekplorasi ",
       subtitle: "Manfaat kegiatan diluar rumah untuk anak",
-      url: "",
+      url: "https://youtube.com/shorts/LvBTpi5WbSM?si=3ou0V-er4aLTh2Ul",
       imgUrl: "",
     },
   ];
