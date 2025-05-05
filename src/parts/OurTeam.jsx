@@ -9,6 +9,8 @@ import della from "../assets/team/della.jpg";
 import dhia from "../assets/team/dhia.jpg";
 import rosania from "../assets/team/rosania.jpg";
 import ulayyah from "../assets/team/ulayyah.jpg";
+import zhafira from "../assets/team/zhafira.jpg";
+import zahwa from "../assets/team/zahwa.png";
 
 export const OurTeam = () => {
   const dospem = [
@@ -27,8 +29,8 @@ export const OurTeam = () => {
   const section2 = [
     { image: rosania, name: "Rosania Noviani " },
     { image: ulayyah, name: "Ullayah Hani" },
-    { image: "", name: "Zhafira Fitrahastuti " },
-    { image: "", name: "Zahwa Nurhaliza " },
+    { image: zhafira, name: "Zhafira Fitrahastuti" },
+    { image: zahwa, name: "Zahwa Nurhaliza" },
   ];
 
   const combined = [...section1, ...section2];

@@ -15,7 +15,7 @@ export const Navbar = () => {
     },
   ];
   return (
-    <div className="navbar bg-base-100 shadow-sm ">
+    <div className="fixed navbar bg-base-100 shadow-sm z-50">
       <div className="navbar-start w-full">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
