@@ -9,7 +9,7 @@ import artikelHeader from "../assets/artikel-header.webp";
 export const Articles = () => {
   const articles = [
     {
-      title: "Cara Efektif Mengurangi Screen Time pada Anak",
+      title: "Cara Efektif Mengurangi Screen Time Pada Anak",
       image: artikel1,
       url: "https://www.tempo.co/arsip/8-langkah-mengurangi-screen-time-anak-usia-balita--291129",
     },

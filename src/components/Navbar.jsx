@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../assets/logo.jpg";
+import unj from "../assets/unj.png";
 
 export const Navbar = () => {
   const navlists = [
@@ -58,9 +59,23 @@ export const Navbar = () => {
           </ul>
         </div>
         <div className="flex md:justify-start justify-between w-full items-center">
-          <img src={logo} alt="Logo" className="w-10 h-10 rounded-full md:block hidden" />
-          <a className="btn btn-ghost text-xl">Parenthink</a>
-          <img src={logo} alt="Logo" className="w-10 h-10 rounded-full md:hidden block" />
+          <div className="md:flex hidden items-center gap-3">
+            <img
+              src={unj}
+              alt="Logo"
+              className="w-10 h-10 rounded-full md:block hidden"
+            />
+            <img
+              src={logo}
+              alt="Logo"
+              className="w-10 h-10 rounded-full md:block hidden border border-[#c18d5c]"
+            />
+          </div>
+          <a className="ml-2 font-bold text-xl">Parenthink</a>
+          <div className="md:hidden flex items-center gap-3">
+            <img src={logo} alt="Logo" className="w-10 h-10 rounded-full border border-[#c18d5c]" />
+            <img src={unj} alt="Logo" className="w-10 h-10 rounded-full" />
+          </div>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">

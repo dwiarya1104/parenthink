@@ -2,6 +2,9 @@ import React from "react";
 import heroContent from "../assets/content.webp";
 import { BadgeContent } from "../components/BadgeContent";
 import { CardContent } from "../components/CardContent";
+import content1 from "../assets/content1.jpeg"
+import content2 from "../assets/content2.jpg"
+import content3 from "../assets/content3.jpg"
 
 export const Content = () => {
   const contents = [
@@ -14,29 +17,29 @@ export const Content = () => {
       url: "https://ejournal.iainmadura.ac.id/index.php/kiddo/article/view/4797",
     },
     {
-      title: "Psikologi",
+      title: "Psikologi Anak",
       url: "https://books.google.co.id/books?hl=en&lr=&id=l4wpEAAAQBAJ&oi=fnd&pg=PA3&dq=psikologi+anak&ots=zxzIkR8Sii&sig=j5k3BoNQkrnsR5jEYHELJe-LGHQ&redir_esc=y#v=onepage&q=psikologi%20anak&f=false",
     },
   ];
 
   const cardContents = [
     {
-      title: "Pola Asuh Anak Yang Baik (Cara Mendidik Anak)",
-      subtitle: "",
+      title: "Pola Asuh Anak Yang Baik",
+      subtitle: "Cara Mendidik Anak",
       url: "https://www.youtube.com/watch?v=aCn8ERT7hLs&pp=ygUacGFyZW50aW5nIGRhc2FyIHVudHVrIGFuYWs%3D",
-      imgUrl: "",
+      imgUrl: content1,
     },
     {
       title: "Stimulasi Anak",
-      subtitle: "Stimulasi penting untuk,mendukung perkembangan anak",
+      subtitle: "Stimulasi penting untuk mendukung perkembangan anak",
       url: "https://youtu.be/JZCT35OFEwA?si=hK2YyLtkINROltts",
-      imgUrl: "",
+      imgUrl: content2,
     },
     {
-      title: "Ekplorasi ",
+      title: "Eksplorasi",
       subtitle: "Manfaat kegiatan diluar rumah untuk anak",
       url: "https://youtube.com/shorts/LvBTpi5WbSM?si=3ou0V-er4aLTh2Ul",
-      imgUrl: "",
+      imgUrl: content3,
     },
   ];
   return (
